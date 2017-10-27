@@ -1,6 +1,6 @@
 {
   "name": "express-protection",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Protect Express Test Middleware",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.18.2",
     "express": "^4.16.2",
     "express-http-proxy": "^1.0.7",
     "http-auth": "^3.2.3",
